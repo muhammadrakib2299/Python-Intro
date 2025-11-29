@@ -1,11 +1,11 @@
-# exam = 'BCS'
-# passed = False
+exam = 'BCS'
+passed = False
 
-# if exam == 'BCS' and passed == True:
-#     print('Congrats mama. You passed the BCS exam')
+if exam == 'BCS' and passed == True:
+    print('Congrats mama. You passed the BCS exam')
 
-# else:
-#     print('You are fail. Try again')
+else:
+    print('You are fail. Try again')
 
 
 salary = 50000
