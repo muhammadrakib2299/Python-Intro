@@ -11,23 +11,24 @@
 # print(numbers[: :-1])
 
 
-fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+# fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 
-# Count 
-print('Count: ',fruits.count('apple'))
-# reverse 
-fruits.reverse()
-print('reverse : ', fruits)
+# # Count 
+# print('Count: ',fruits.count('apple'))
+# # reverse 
+# fruits.reverse()
+# print('reverse : ', fruits)
 
-# Append - add item of the list 
-fruits.append('grape')
-print('After append: ', fruits)
+# # Append - add item of the list 
+# fruits.append('grape')
+# print('After append: ', fruits)
 
-# sort - filtering items 
-fruits.sort()
-print('Sort: ', fruits)
+# # sort - filtering items 
+# fruits.sort()
+# print('Sort: ', fruits)
 
-# Pop - remove an item of the end from the list
-fruits.pop()
-print('Pop : ', fruits)
+# # Pop - remove an item of the end from the list
+# fruits.pop()
+# print('Pop : ', fruits)
 
+print('Hello world!')
