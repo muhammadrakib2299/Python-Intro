@@ -10,23 +10,14 @@ class Solution:
             for c in range(9):
                 val = board[r][c]
                 
-<<<<<<< HEAD
-                if val == '.':
-=======
                 if val == ".":
->>>>>>> 1b62e0a307f4da2f7b5cdf842cd4d6e56a1af6bd
                     continue
                 
                 box_index = (r // 3) * 3 + (c // 3)
                 
-<<<<<<< HEAD
-                if (val in rows[r] or 
-                    val in cols[c] or 
-=======
                 # Check duplicate
                 if (val in rows[r] or
                     val in cols[c] or
->>>>>>> 1b62e0a307f4da2f7b5cdf842cd4d6e56a1af6bd
                     val in boxes[box_index]):
                     return False
                 
